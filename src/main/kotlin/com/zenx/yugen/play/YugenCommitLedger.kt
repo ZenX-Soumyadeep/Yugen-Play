@@ -16,9 +16,9 @@ data class CommitMilestone(
  * Auto-generated Kotlin ledger recording every sanitized milestone replayed from the private repo.
  */
 object YugenCommitLedger {
-    const val LATEST_SEQUENCE: Int = 10
-    const val LATEST_PRIVATE_SHA_PREFIX: String = "16954138"
-    const val LATEST_TIMESTAMP: String = "Sat Sep 19 02:08:12 2026 +0530"
+    const val LATEST_SEQUENCE: Int = 11
+    const val LATEST_PRIVATE_SHA_PREFIX: String = "9d776835"
+    const val LATEST_TIMESTAMP: String = "Sat Sep 19 02:18:43 2026 +0530"
 
     val milestones: List<CommitMilestone> = listOf(
         CommitMilestone(sequence = 1, privateShaPrefix = "eb1769dd", timestamp = "Wed Sep 2 12:47:40 2026 +0530", summary = "Initial commit: Native Android anime app with Jetpack Compose and ExoPlayer"),
@@ -31,5 +31,6 @@ object YugenCommitLedger {
         CommitMilestone(sequence = 8, privateShaPrefix = "f9d308dd", timestamp = "Tue Sep 15 11:05:18 2026 +0530", summary = "Release v1.2.0"),
         CommitMilestone(sequence = 9, privateShaPrefix = "90c66a51", timestamp = "Thu Sep 17 14:57:10 2026 +0530", summary = "feat: release v1.3.0 - Android TV 10-foot experience & in-app streaming updater"),
         CommitMilestone(sequence = 10, privateShaPrefix = "16954138", timestamp = "Sat Sep 19 02:08:12 2026 +0530", summary = "refactor: improve TV UI focus handling, detail view favorite matching, and backup extraction rules"),
+        CommitMilestone(sequence = 11, privateShaPrefix = "9d776835", timestamp = "Sat Sep 19 02:18:43 2026 +0530", summary = "feat: add Hilt coroutines module, exclude offline cache from backups, and enhance Android TV player and UI components"),
     )
 }
