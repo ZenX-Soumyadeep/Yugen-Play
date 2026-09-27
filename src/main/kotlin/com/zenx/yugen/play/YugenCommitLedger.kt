@@ -16,9 +16,9 @@ data class CommitMilestone(
  * Auto-generated Kotlin ledger recording every sanitized milestone replayed from the private repo.
  */
 object YugenCommitLedger {
-    const val LATEST_SEQUENCE: Int = 13
-    const val LATEST_PRIVATE_SHA_PREFIX: String = "c40c7d66"
-    const val LATEST_TIMESTAMP: String = "Sat Sep 19 10:09:43 2026 +0530"
+    const val LATEST_SEQUENCE: Int = 14
+    const val LATEST_PRIVATE_SHA_PREFIX: String = "44421c75"
+    const val LATEST_TIMESTAMP: String = "Sun Sep 27 16:05:59 2026 +0530"
 
     val milestones: List<CommitMilestone> = listOf(
         CommitMilestone(sequence = 1, privateShaPrefix = "eb1769dd", timestamp = "Wed Sep 2 12:47:40 2026 +0530", summary = "Initial commit: Native Android anime app with Jetpack Compose and ExoPlayer"),
@@ -34,5 +34,6 @@ object YugenCommitLedger {
         CommitMilestone(sequence = 11, privateShaPrefix = "9d776835", timestamp = "Sat Sep 19 02:18:43 2026 +0530", summary = "feat: add Hilt coroutines module, exclude offline cache from backups, and enhance Android TV player and UI components"),
         CommitMilestone(sequence = 12, privateShaPrefix = "59533197", timestamp = "Sat Sep 19 09:45:30 2026 +0530", summary = "fix: add MegaPlay token generation for Anikoto and disable CDN segment rewriting"),
         CommitMilestone(sequence = 13, privateShaPrefix = "c40c7d66", timestamp = "Sat Sep 19 10:09:43 2026 +0530", summary = "feat: implement What's New feature for release notes parsing and display"),
+        CommitMilestone(sequence = 14, privateShaPrefix = "44421c75", timestamp = "Sun Sep 27 16:05:59 2026 +0530", summary = "feat: add Anikoto provider, AniSkip integration, and playback caching service"),
     )
 }
