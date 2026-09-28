@@ -16,9 +16,9 @@ data class CommitMilestone(
  * Auto-generated Kotlin ledger recording every sanitized milestone replayed from the private repo.
  */
 object YugenCommitLedger {
-    const val LATEST_SEQUENCE: Int = 15
-    const val LATEST_PRIVATE_SHA_PREFIX: String = "683215ee"
-    const val LATEST_TIMESTAMP: String = "Sun Sep 27 16:12:09 2026 +0530"
+    const val LATEST_SEQUENCE: Int = 16
+    const val LATEST_PRIVATE_SHA_PREFIX: String = "beb4a3e3"
+    const val LATEST_TIMESTAMP: String = "Mon Sep 28 19:58:23 2026 +0530"
 
     val milestones: List<CommitMilestone> = listOf(
         CommitMilestone(sequence = 1, privateShaPrefix = "eb1769dd", timestamp = "Wed Sep 2 12:47:40 2026 +0530", summary = "Initial commit: Native Android anime app with Jetpack Compose and ExoPlayer"),
@@ -36,5 +36,6 @@ object YugenCommitLedger {
         CommitMilestone(sequence = 13, privateShaPrefix = "c40c7d66", timestamp = "Sat Sep 19 10:09:43 2026 +0530", summary = "feat: implement What's New feature for release notes parsing and display"),
         CommitMilestone(sequence = 14, privateShaPrefix = "44421c75", timestamp = "Sun Sep 27 16:05:59 2026 +0530", summary = "feat: add Anikoto provider, AniSkip integration, and playback caching service"),
         CommitMilestone(sequence = 15, privateShaPrefix = "683215ee", timestamp = "Sun Sep 27 16:12:09 2026 +0530", summary = "chore: bump app version to 1.3.3"),
+        CommitMilestone(sequence = 16, privateShaPrefix = "beb4a3e3", timestamp = "Mon Sep 28 19:58:23 2026 +0530", summary = "Fix TvSubtitleSidePanel and TvEpisodeSidePanel formatting"),
     )
 }
