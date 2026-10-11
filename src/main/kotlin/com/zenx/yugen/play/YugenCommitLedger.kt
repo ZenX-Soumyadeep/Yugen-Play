@@ -16,9 +16,9 @@ data class CommitMilestone(
  * Auto-generated Kotlin ledger recording every sanitized milestone replayed from the private repo.
  */
 object YugenCommitLedger {
-    const val LATEST_SEQUENCE: Int = 27
-    const val LATEST_PRIVATE_SHA_PREFIX: String = "eb652b38"
-    const val LATEST_TIMESTAMP: String = "Sun Oct 11 11:24:11 2026 +0530"
+    const val LATEST_SEQUENCE: Int = 28
+    const val LATEST_PRIVATE_SHA_PREFIX: String = "9b8516fd"
+    const val LATEST_TIMESTAMP: String = "Sun Oct 11 13:26:02 2026 +0530"
 
     val milestones: List<CommitMilestone> = listOf(
         CommitMilestone(sequence = 1, privateShaPrefix = "eb1769dd", timestamp = "Wed Sep 2 12:47:40 2026 +0530", summary = "Initial commit: Native Android anime app with Jetpack Compose and ExoPlayer"),
@@ -48,5 +48,6 @@ object YugenCommitLedger {
         CommitMilestone(sequence = 25, privateShaPrefix = "72b55722", timestamp = "Sun Oct 11 10:52:14 2026 +0530", summary = "chore: untrack .idea folder"),
         CommitMilestone(sequence = 26, privateShaPrefix = "5cf3368c", timestamp = "Sun Oct 11 11:18:46 2026 +0530", summary = "chore: ignore graphify-out directory"),
         CommitMilestone(sequence = 27, privateShaPrefix = "eb652b38", timestamp = "Sun Oct 11 11:24:11 2026 +0530", summary = "chore: untrack schemas and remove skills-lock.json"),
+        CommitMilestone(sequence = 28, privateShaPrefix = "9b8516fd", timestamp = "Sun Oct 11 13:26:02 2026 +0530", summary = "fix: improve video extractor, download headers handling, and CDN request routing"),
     )
 }
