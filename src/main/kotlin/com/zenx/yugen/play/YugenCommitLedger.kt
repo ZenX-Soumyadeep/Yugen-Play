@@ -16,9 +16,9 @@ data class CommitMilestone(
  * Auto-generated Kotlin ledger recording every sanitized milestone replayed from the private repo.
  */
 object YugenCommitLedger {
-    const val LATEST_SEQUENCE: Int = 33
-    const val LATEST_PRIVATE_SHA_PREFIX: String = "9040464a"
-    const val LATEST_TIMESTAMP: String = "Thu Oct 29 13:32:34 2026 +0530"
+    const val LATEST_SEQUENCE: Int = 34
+    const val LATEST_PRIVATE_SHA_PREFIX: String = "e46693ca"
+    const val LATEST_TIMESTAMP: String = "Thu Oct 29 15:22:06 2026 +0530"
 
     val milestones: List<CommitMilestone> = listOf(
         CommitMilestone(sequence = 1, privateShaPrefix = "eb1769dd", timestamp = "Wed Sep 2 12:47:40 2026 +0530", summary = "Initial commit: Native Android anime app with Jetpack Compose and ExoPlayer"),
@@ -54,5 +54,6 @@ object YugenCommitLedger {
         CommitMilestone(sequence = 31, privateShaPrefix = "360abb7d", timestamp = "Wed Oct 14 00:57:41 2026 +0530", summary = "bump app version to 1.3.10 (versionCode 10)"),
         CommitMilestone(sequence = 32, privateShaPrefix = "ad9fe9ca", timestamp = "Thu Oct 15 01:03:33 2026 +0530", summary = "feat: add download queue orchestrator and optimize episode sync and tracking mechanisms"),
         CommitMilestone(sequence = 33, privateShaPrefix = "9040464a", timestamp = "Thu Oct 29 13:32:34 2026 +0530", summary = "refactor: improve robustness of extractors, database queries, and network parsers"),
+        CommitMilestone(sequence = 34, privateShaPrefix = "e46693ca", timestamp = "Thu Oct 29 15:22:06 2026 +0530", summary = "feat: add season handling and server support updates for anime providers"),
     )
 }
