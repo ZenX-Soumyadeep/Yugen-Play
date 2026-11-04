@@ -1,0 +1,5 @@
+*.md linguist-documentation
+docs/** linguist-documentation
+*.toml linguist-vendored
+*.kts linguist-language=Kotlin
+*.kt linguist-detectable=true
