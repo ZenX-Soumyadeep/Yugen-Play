@@ -19,16 +19,16 @@
 
 ## 1. Download Latest Releases (`UpdateManager` Host)
 
-Signed builds for **Mobile** and **Android TV** (supporting Android 5.1 / Fire OS 5 `API 22` through `API 36`) are published on the [**Releases Latest**](https://github.com/ZenX-Soumyadeep/Yugen_Play-Kotlin-Project/releases/latest) page.
+Signed builds for **Mobile** and **Android TV** (supporting Android 5.1 / Fire OS 5 `API 22` through `API 36`) are published on the [**Releases Latest**](https://github.com/ZenX-Soumyadeep/Yugen-Play/releases/latest) page.
 
 | Form Factor | Target ABI | Release Artifact | Download |
 | :--- | :--- | :--- | :--- |
-| **Android Mobile** | Universal (`arm64-v8a` + `armeabi-v7a`) | `YugenPlay.apk` | [**Download Latest Mobile APK**](https://github.com/ZenX-Soumyadeep/Yugen_Play-Kotlin-Project/releases/latest/download/YugenPlay.apk) |
-| **Android Mobile** | 64-bit ARM (`arm64-v8a`) | `YugenPlay_arm64-v8a.apk` | [**Releases Tab**](https://github.com/ZenX-Soumyadeep/Yugen_Play-Kotlin-Project/releases/latest) |
-| **Android Mobile** | 32-bit ARM (`armeabi-v7a`) | `YugenPlay_armeabi-v7a.apk` | [**Releases Tab**](https://github.com/ZenX-Soumyadeep/Yugen_Play-Kotlin-Project/releases/latest) |
-| **Android TV / Fire TV** | Universal (`arm64-v8a` + `armeabi-v7a`) | `YugenPlay_tv.apk` | [**Download Latest TV APK**](https://github.com/ZenX-Soumyadeep/Yugen_Play-Kotlin-Project/releases/latest/download/YugenPlay_tv.apk) |
-| **Android TV / Fire TV** | 64-bit ARM (`arm64-v8a`) | `YugenPlay_tv_arm64-v8a.apk` | [**Releases Tab**](https://github.com/ZenX-Soumyadeep/Yugen_Play-Kotlin-Project/releases/latest) |
-| **Android TV / Fire TV** | 32-bit ARM (`armeabi-v7a`) | `YugenPlay_tv_armeabi-v7a.apk` | [**Releases Tab**](https://github.com/ZenX-Soumyadeep/Yugen_Play-Kotlin-Project/releases/latest) |
+| **Android Mobile** | Universal (`arm64-v8a` + `armeabi-v7a`) | `YugenPlay.apk` | [**Download Latest Mobile APK**](https://github.com/ZenX-Soumyadeep/Yugen-Play/releases/latest/download/YugenPlay.apk) |
+| **Android Mobile** | 64-bit ARM (`arm64-v8a`) | `YugenPlay_arm64-v8a.apk` | [**Releases Tab**](https://github.com/ZenX-Soumyadeep/Yugen-Play/releases/latest) |
+| **Android Mobile** | 32-bit ARM (`armeabi-v7a`) | `YugenPlay_armeabi-v7a.apk` | [**Releases Tab**](https://github.com/ZenX-Soumyadeep/Yugen-Play/releases/latest) |
+| **Android TV / Fire TV** | Universal (`arm64-v8a` + `armeabi-v7a`) | `YugenPlay_tv.apk` | [**Download Latest TV APK**](https://github.com/ZenX-Soumyadeep/Yugen-Play/releases/latest/download/YugenPlay_tv.apk) |
+| **Android TV / Fire TV** | 64-bit ARM (`arm64-v8a`) | `YugenPlay_tv_arm64-v8a.apk` | [**Releases Tab**](https://github.com/ZenX-Soumyadeep/Yugen-Play/releases/latest) |
+| **Android TV / Fire TV** | 32-bit ARM (`armeabi-v7a`) | `YugenPlay_tv_armeabi-v7a.apk` | [**Releases Tab**](https://github.com/ZenX-Soumyadeep/Yugen-Play/releases/latest) |
 
 > [!NOTE]
 > Both `mobile` and `tv` product flavors share `applicationId = "com.zenx.yugen.play"` while isolating Google Cast (`androidx.media3:media3-cast`) exclusively to the `mobile` build so Android TV / Fire TV installs stay lean and free of Play Services Cast crashes.

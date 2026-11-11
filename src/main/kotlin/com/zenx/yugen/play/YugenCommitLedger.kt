@@ -16,9 +16,9 @@ data class CommitMilestone(
  * Auto-generated Kotlin ledger recording every sanitized milestone replayed from the private repo.
  */
 object YugenCommitLedger {
-    const val LATEST_SEQUENCE: Int = 36
-    const val LATEST_PRIVATE_SHA_PREFIX: String = "b75a81bf"
-    const val LATEST_TIMESTAMP: String = "Thu Nov 5 00:09:28 2026 +0530"
+    const val LATEST_SEQUENCE: Int = 37
+    const val LATEST_PRIVATE_SHA_PREFIX: String = "04bf28fc"
+    const val LATEST_TIMESTAMP: String = "Wed Nov 11 22:43:25 2026 +0530"
 
     val milestones: List<CommitMilestone> = listOf(
         CommitMilestone(sequence = 1, privateShaPrefix = "eb1769dd", timestamp = "Wed Sep 2 12:47:40 2026 +0530", summary = "Initial commit: Native Android anime app with Jetpack Compose and ExoPlayer"),
@@ -57,5 +57,6 @@ object YugenCommitLedger {
         CommitMilestone(sequence = 34, privateShaPrefix = "e46693ca", timestamp = "Thu Oct 29 15:22:06 2026 +0530", summary = "feat: add season handling and server support updates for anime providers"),
         CommitMilestone(sequence = 35, privateShaPrefix = "125d4b04", timestamp = "Fri Oct 30 00:13:56 2026 +0530", summary = "refactor: clean up unused extractors, use cases, UI extensions, and components across codebase"),
         CommitMilestone(sequence = 36, privateShaPrefix = "b75a81bf", timestamp = "Thu Nov 5 00:09:28 2026 +0530", summary = "feat: complete step 3 UI, branding, asset, and UX glitch fixes"),
+        CommitMilestone(sequence = 37, privateShaPrefix = "04bf28fc", timestamp = "Wed Nov 11 22:43:25 2026 +0530", summary = "feat: rebrand to Yugen Play, point releases to Yugen-Play, harden CloudflareInterceptor, and add public repo sync"),
     )
 }

@@ -35,11 +35,11 @@ object YugenReleaseConstants {
     const val PAIRING_SAS_DIGITS: Int = 6
 
     const val PUBLIC_REPOSITORY_URL: String =
-        "https://github.com/ZenX-Soumyadeep/Yugen_Play-Kotlin-Project"
+        "https://github.com/ZenX-Soumyadeep/Yugen-Play"
     const val GITHUB_RELEASES_LATEST_URL: String =
         "$PUBLIC_REPOSITORY_URL/releases/latest"
     const val GITHUB_RELEASES_API_URL: String =
-        "https://api.github.com/repos/ZenX-Soumyadeep/Yugen_Play-Kotlin-Project/releases/latest"
+        "https://api.github.com/repos/ZenX-Soumyadeep/Yugen-Play/releases/latest"
 }
 
 /**
