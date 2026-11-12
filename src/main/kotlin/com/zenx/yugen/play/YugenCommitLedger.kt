@@ -16,9 +16,9 @@ data class CommitMilestone(
  * Auto-generated Kotlin ledger recording every sanitized milestone replayed from the private repo.
  */
 object YugenCommitLedger {
-    const val LATEST_SEQUENCE: Int = 38
-    const val LATEST_PRIVATE_SHA_PREFIX: String = "c357590c"
-    const val LATEST_TIMESTAMP: String = "Wed Nov 11 23:36:05 2026 +0530"
+    const val LATEST_SEQUENCE: Int = 39
+    const val LATEST_PRIVATE_SHA_PREFIX: String = "b6fb00ba"
+    const val LATEST_TIMESTAMP: String = "Thu Nov 12 23:48:44 2026 +0530"
 
     val milestones: List<CommitMilestone> = listOf(
         CommitMilestone(sequence = 1, privateShaPrefix = "eb1769dd", timestamp = "Wed Sep 2 12:47:40 2026 +0530", summary = "Initial commit: Native Android anime app with Jetpack Compose and ExoPlayer"),
@@ -59,5 +59,6 @@ object YugenCommitLedger {
         CommitMilestone(sequence = 36, privateShaPrefix = "b75a81bf", timestamp = "Thu Nov 5 00:09:28 2026 +0530", summary = "feat: complete step 3 UI, branding, asset, and UX glitch fixes"),
         CommitMilestone(sequence = 37, privateShaPrefix = "04bf28fc", timestamp = "Wed Nov 11 22:43:25 2026 +0530", summary = "feat: rebrand to Yugen Play, point releases to Yugen-Play, harden CloudflareInterceptor, and add public repo sync"),
         CommitMilestone(sequence = 38, privateShaPrefix = "c357590c", timestamp = "Wed Nov 11 23:36:05 2026 +0530", summary = "release: prepare v2.0.0 (build 100), fix Discord URL, harden R8 keep rules, and verify signing"),
+        CommitMilestone(sequence = 39, privateShaPrefix = "b6fb00ba", timestamp = "Thu Nov 12 23:48:44 2026 +0530", summary = "fix(ui): replace legacy Yugen Play icons, Leanback TV banner, and animated splash intro with official Yugen Play assets"),
     )
 }
