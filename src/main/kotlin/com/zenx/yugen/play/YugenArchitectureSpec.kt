@@ -13,8 +13,8 @@ package com.zenx.yugen.play
 object YugenReleaseConstants {
     const val APPLICATION_ID: String = "com.zenx.yugen.play"
     const val APP_DISPLAY_NAME: String = "Yugen Play"
-    const val VERSION_NAME: String = "2.0.0"
-    const val VERSION_CODE: Int = 100
+    const val VERSION_NAME: String = "2.0.1"
+    const val VERSION_CODE: Int = 101
 
     const val MIN_SDK: Int = 22
     const val TARGET_SDK: Int = 36

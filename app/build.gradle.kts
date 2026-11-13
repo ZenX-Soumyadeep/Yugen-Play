@@ -17,8 +17,8 @@ val diagnosticBuildSha = providers.environmentVariable("GITHUB_SHA").orNull
         }.standardOutput.asText.get().trim()
     }.getOrDefault("unknown").ifBlank { "unknown" }
 
-val appVersionCode = 100
-val appVersionName = "2.0.0"
+val appVersionCode = 101
+val appVersionName = "2.0.1"
 
 android {
     namespace = "com.zenx.yugen.play"
